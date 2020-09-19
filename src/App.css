@@ -81,6 +81,10 @@ main {
   background-color: #ebebeb;
 }
 
+.Movies-card-text-container {
+  width: inherit;
+}
+
 .Movies-card-image {
   width: auto;
   height: inherit;
