@@ -1,4 +1,5 @@
-h1, h2, .Movies-card-date, .Movies-card-tag{
+h1, h2, .Movies-card-date, .Movies-card-tag,
+input[type=text], ::placeholder{
   font-family: 'Abel', sans-serif;
   font-weight: normal;
 }
@@ -11,7 +12,6 @@ body {
 main {
   width: 90%;
   height: max-content;
-  padding-top: 8vh;
   padding-left: 5%;
   padding-right: 5%;
   flex-direction: column;
@@ -44,8 +44,9 @@ main {
   justify-content: center;
   background-color: #ebebeb;
   width: auto;
+  margin: 50px 0 50px 0;
   padding: 5px 10px 5px 10px;
-  height: calc(40px + 1vh);
+  height: calc(30px + 1vh);
   border-radius: 30px;
 }
 
@@ -94,7 +95,7 @@ main {
   display: flex;
   flex-direction: row;
   background-color: #116193;
-  min-height: 11vh;
+  min-height: 10vh;
   width: inherit;
   color: #00e8e4;
   overflow: hidden;
@@ -118,7 +119,8 @@ main {
 }
 
 .Movies-card-percentage {
-  font-size: calc(12px + 2vh);
+  font-size: 1.6em;
+  margin-top: 20px;
   color: #00e8e4;
 }
 
@@ -126,7 +128,7 @@ main {
   display: flex;
   margin-top: 0;
   margin-left: 110px;
-  font-size: calc(16px + 1vh);
+  font-size: calc(14px + 1vh);
   color: #969696;
 }
 
@@ -135,8 +137,7 @@ main {
   width: 95%;
   height: auto;
   margin-left: 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;
   color:#555555;
 }
 
